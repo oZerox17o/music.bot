@@ -40,7 +40,7 @@ const client = new Discord.Client({
     ],
     presence: {
       activity: {
-        name: `+help | musicium.eu`, 
+        name: `+help`, 
         type: "PLAYING", 
       },
       status: "online"
@@ -116,15 +116,7 @@ client.autoresume = new Enmap({ name: "autoresume", dataDir: "./databases/infos"
 //Start the Bot
 client.login(config.token)
 
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */
+
 
 
 
